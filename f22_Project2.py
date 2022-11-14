@@ -2,14 +2,13 @@
 #UMID: 42006660
 #Who I worked with: Isabella Benjey, Elaine Wu
 
-
-
 from xml.sax import parseString
 from bs4 import BeautifulSoup
 import re
 import os
 import csv
 import unittest
+
 
 
 def get_listings_from_search_results(html_file):
